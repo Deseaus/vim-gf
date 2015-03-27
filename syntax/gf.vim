@@ -10,14 +10,14 @@ endif
 " Keywords
 syn keyword gfStructural abstract concrete resource interface instance
 syn keyword gfStructural incomplete of with open
-syn keyword gfStructural cat fun lincat lin oper flags
+syn keyword gfStructural cat fun lincat lin oper flags param
 syn match   gfStructural "\*\*\|-"
 syn keyword gfConditional case table overload
 
 " language
 syn match   gfFunction  "[[:alpha:]][[:alnum:]_]*"
 syn match   gfDelimiter "(\|)\|\[\|\]\|,\|;\|_\|{\|}"
-syn match   gfSymbols   ":\|->\|\\\|\\\\\|=>"
+syn match   gfSymbols   ":\|->\|\\\|\\\\\|=>\|!"
 syn match   gfOperators "++\|+"
 
 " Comments
