@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: Grammatical Framework
-" Maintainer: Grégoire Détrez
-" Latest Revision: 20 May 2013
+" Maintainer: Grégoire Détrez, Daniel Vidal Hussey
+" Latest Revision: 26 March 2015
 
 if exists("b:current_syntax")
   finish
@@ -21,8 +21,8 @@ syn match   gfSymbols   ":\|->\|\\\|\\\\\|=>"
 syn match   gfOperators "++\|+"
 
 " Comments
-syn keyword gfTodo contained TODO FIXME XXX NOTE
-syn match   gfComment "--.*$" contains=celTodo
+syn keyword gfTodo TODO FIXME XXX NOTE contained 
+syn match   gfComment "--.*$" contains=gfTodo
 syn region  gfComment start="{-" end="-}"
 " Strings
 syn region  gfString start='"' end='"'
