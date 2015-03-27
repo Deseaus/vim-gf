@@ -1,7 +1,7 @@
 vim-gf
 ======
 
-GF syntax highlighting for vim.
+[Grammatical Framework](http://www.grammaticalframework.org/) syntax highlighting for vim.
 
 Installation
 ------------
