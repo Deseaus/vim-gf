@@ -12,7 +12,7 @@ syn keyword gfStructural abstract concrete resource interface instance
 syn keyword gfStructural incomplete of with open
 syn match   gfStructural "\*\*\|-"
 syn keyword gfJudgement cat fun lincat lin oper flags param data lindef printname
-syn keyword gfFlags startcat lexer unlexer optimize probs coding
+syn keyword gfFlags startcat optimize probs coding
 syn keyword gfConditional case table overload variants pre
 syn keyword gfLambda where let in
 
